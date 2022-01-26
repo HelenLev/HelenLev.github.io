@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Rest Place</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="toggle-button.css">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav class="top-menu">
+                <a class="navbar-logo" href="main.html"><img
+                        src="https://html5book.ru/wp-content/uploads/2017/04/lily-logo.png"></a>
+                <ul class="menu-main">
+                    <li><a class="right-item" href="contacts/contacts.html">Контакты</a></li>
+                    <li><a class="right-item" href="actions/actions.html">Акции</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="offer-items">
+                <div class="offer-item">
+                    <a href="spa-face/spa-face.html">
+                        <img src="images/spa-face.jpg">
+                        <p>Спа уходы за лицом</p>
+                    </a>
+                </div>
+                <div class="offer-item">
+                    <a href="methodics/methodics.html">
+                        <img src="images/methodics.jpg">
+                        <p>Аппаратные методики</p>
+                    </a>
+                </div>
+                <div class="offer-item">
+                    <a href="massages/massages.html">
+                        <img src="images/massage.jpg">
+                        <p>Массажи</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <label class="switch">
+                <input type="checkbox" onclick="handleCheckBoxClick();">
+                <span class="slider round"></span>
+              </label>
+              <div class="footer-image">
+                  <img id="mokey-img" class="footer-image-hidden" src="images/rafici.jpg">
+              </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
